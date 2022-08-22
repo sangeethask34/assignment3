@@ -72,9 +72,6 @@ article{
 #account-menu button:hover{
     background-color: blue;
 }
-#para-part{
-    padding-top:0px;
-}
 .checkbox-items{
     border:none;
     border-radius: 15px;
