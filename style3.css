@@ -1,0 +1,100 @@
+#topbar{
+    margin: 0 40px;
+}
+#topbar:hover{
+    background: linear-gradient(to bottom,#FE5D20,#8071D0);
+}
+#top-menus{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+#menu{
+    display:flex;
+    align-items: center;
+}
+.menu-item{
+    font-size: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+button{
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFD8DB;
+    color:#A389CC;
+    cursor: pointer;
+}
+.menu-item:hover{
+    text-decoration: underline blue;
+}
+button:hover{
+    background-color: pink;
+}
+#main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.landing-img{
+    float:right;
+    width:600px;
+    height:550px;
+    padding:30px 40px;
+}
+#main-section{
+    margin: 0px 40px;
+    padding: 40px 40px;
+}
+section{
+    background-color: rgb(241, 245, 247);
+}
+article{
+    padding-left: 50px;
+    margin-left: 50px;
+}
+.h1{
+    font-size: 100px;
+    font-weight: 900;
+}
+#account-menu{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+#account-menu button{
+    background-color: #5243C0;
+    color:#ffffff;
+}
+#account-menu button:hover{
+    background-color: blue;
+}
+#para-part{
+    padding-top:0px;
+}
+.checkbox-items{
+    border:none;
+    border-radius: 15px;
+    width:300px;
+    padding: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.checkbox-items:hover{
+    background-color: white;
+}
+.tick-img{
+     width:25px;
+}
+.user-img{
+    width:30px;
+}
+.tick-img:hover{
+    filter: invert(53%) sepia(35%) saturate(552%) hue-rotate(177deg) brightness(86%) contrast(88%);
+}
